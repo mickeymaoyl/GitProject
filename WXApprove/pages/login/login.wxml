@@ -27,5 +27,9 @@
      </view>
 </view>
 
+<view class="window_btn">
+<button type="mini">登录<button/>
+
+</view>
 
 </view>
