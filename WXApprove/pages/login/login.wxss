@@ -1,0 +1,68 @@
+
+
+
+.topswiper{
+    width: 100%;
+    height: 150px;
+}
+
+.loingview{
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    text-align:center;
+    /*background-color: lightblue;*/
+    /*height: 500px;*/
+    width: 100%;
+    /*background: url(../../images/tooopen_sy_143912755726.jpg);
+    background-repeat: no-repeat;*/
+
+}
+
+.slide-image{
+    width:100%;
+    align-items: center;
+}
+.input{
+   padding-top: 50px;
+   /*background-color: white;*/
+   flex-grow: 0;
+   height: 40px;
+}
+
+.txtusername{
+    width:300px; 
+    border-bottom: 5px solid lightgrey;
+    background: url(../../images/bar_msgmanage.png)  ;
+    background-repeat: no-repeat;
+   
+}
+.password{
+      width:300px;
+      background: url(../../images/logout.png)  ;
+      background-repeat: no-repeat;
+
+}
+
+.window_center{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-around;
+    align-items:center;
+    align-self:stretch;
+    /*flex-grow: 1;*/
+}
+
+.window_center_fgt{
+    width: 25%;
+    color: greenyellow;
+}
+
+.window_center_jz{
+    width: 60%;
+    /*color: red;*/
+}
+
+.jzmm{
+    padding-top: 0px;
+}

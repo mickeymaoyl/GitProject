@@ -1,0 +1,31 @@
+<view class="container loingview">
+<swiper class="topswiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" >
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image  mode="scaleToFill" src="{{item}}"  class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="container input">
+  
+     <input  class="txtusername" type="text" placeholder="请输入手机号或者工号" />
+
+</view>
+
+<view class="container input">
+     <input  class="password" type="password" placeholder="请输入密码" />
+</view>
+
+
+<view  class="window_center">
+    <view class="window_center_fgt">忘记密码</view>
+     <view class="window_center jzmm">
+     <switch   bindchange="switchChange" />
+     <view  id="jz" class="window_center_jz" style="color:{{jzcolor}}">记住密码</view>
+     </view>
+</view>
+
+
+</view>
