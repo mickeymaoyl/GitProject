@@ -25,6 +25,7 @@ App({
     }
   },
   globalData:{
-    userInfo:null
+    userInfo:null,
+    urlHead:"http://127.0.0.1:8090"
   }
 })

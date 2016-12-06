@@ -1,0 +1,84 @@
+page{
+    height: 100%;
+}
+.viewlogin{
+    height: 100%;
+    width:100%;
+    
+    /*position: relative;*/
+}
+.userview{
+    /*filter: blur(0px);*/
+    position: absolute;
+    bottom: 70%;
+    padding-left: 10%;
+    width:100%;
+    
+}
+.passview{
+    /*filter: blur(0px);*/
+    position: absolute;
+    bottom: 60%;
+    padding-left: 10%;
+    width:100%;
+    
+}
+
+.forgetview{
+    position: absolute;
+    bottom: 40%;
+    padding-left: 10%;
+    width:30%;
+    /*border-bottom: 1px solid black;*/
+    color: cyan;
+}
+.btnview{
+    position: absolute;
+    bottom: 30%;
+    padding-left: 20%;
+    width:60%;
+}
+.backgroundview{
+     height: 100%;
+     width:100%;
+     position: relative;
+}
+
+.txtusername{
+    background: url(../../images/bar_msgmanage.png) ;
+    background-repeat: no-repeat;
+    background-position:left center;
+    width:80%;
+    /*background-color: black;*/
+    border-radius: 3%;
+    text-align: center;
+    color: lightslategrey;
+    border-bottom: 1px solid black;
+}
+.password{
+    background: url(../../images/logout.png) ;
+    background-repeat: no-repeat;
+    background-position:left center;
+    width:80%;
+    /*background-color: black;*/
+    border-radius: 3%;
+    text-align: center;
+    color: lightslategrey;
+    border-bottom: 1px solid black;
+}
+.backgroud-img{
+  
+   width:100%;
+   height: 100%;
+   opacity: 0.5;
+}
+
+.btnlogin{
+    background-color: red;
+}
+/*.topswiper{
+    width:100%;
+}
+.slide-image{
+    width:100%;
+}*/

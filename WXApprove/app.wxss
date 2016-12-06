@@ -1,5 +1,5 @@
 /**app.wxss**/
-.container {
+/*.container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -8,11 +8,11 @@
   /*padding: 100rpx 0;*/
   box-sizing: border-box;
   /*align-content:flex-start;*/
-} 
+} */
 
-page{
+/*page{
     height: 100%;
     width: 100%;
     background-color: lightblue;
     
-}
+}*/

@@ -1,5 +1,6 @@
 {
   "pages":[
+   "pages/applogin/applogin",
    "pages/login/login",
     "pages/index/index",
     
@@ -8,8 +9,8 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "APPROVE",
     "navigationBarTextStyle":"black"
 
   },

@@ -1,0 +1,27 @@
+<view class="viewlogin">
+
+<view class="backgroundview">
+   <image  mode="scaleToFill" class ="backgroud-img" src="../../images/loginbackgroud.jpg"/>
+</view>
+
+<view class="userview">
+<input  id ="username" bindblur="inputValue" class="txtusername" 
+  type="text" placeholder="请输入手机号或者工号" />
+</view>
+
+<view class="passview">
+     <input id="password" bindblur="inputValue"  class="password" 
+     type="password" placeholder="请输入密码" />
+</view>
+
+<view class="forgetview">
+ <text class ="forgettext">
+ 忘记密码？
+ </text>
+</view>
+<view class="btnview">
+   <button bindtap="btnLogin" loading="{{btnload}}"
+    class="btnlogin" size="default" >登录</button>
+</view>
+
+</view>

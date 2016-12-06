@@ -9,13 +9,11 @@
 </swiper>
 
 <view class="container input">
-  
-     <input  class="txtusername" type="text" placeholder="请输入手机号或者工号" />
-
+     <input  id ="username" bindblur="inputValue" class="txtusername" type="text" placeholder="请输入手机号或者工号" />
 </view>
 
 <view class="container input">
-     <input  class="password" type="password" placeholder="请输入密码" />
+     <input id="password" bindblur="inputValue"  class="password" type="password" placeholder="请输入密码" />
 </view>
 
 
@@ -28,8 +26,8 @@
 </view>
 
 <view class="window_btn">
-<button type="mini">登录1<button/>
-
+<button bindtap="btnLogin" loading="{{btnload}}"
+ hover-class="button-hover" type="primary" size="default">登录</button>
 </view>
 
 </view>
